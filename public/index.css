@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: rgb(222, 222, 222);
+}
+
+#gridContainer{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50vh 50vh;
+}
+
+.gridElement{
+	border: 0.5px solid gray;
+	padding: 8px;
+}
+
+.space8px{
+	padding: 4px;
+}
+
+.overflow{
+	overflow: auto;
+}
+
+input{
+	margin-top: 16px;
+	margin-right: 16px;
+	padding: 8px;
+}
+
+button{
+	padding: 8px;
+}
+
