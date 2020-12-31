@@ -1,4 +1,4 @@
-WEBSITE_URL = "http://localhost:3000";
+WEBSITE_URL = "https://mongoatlas-test.herokuapp.com/";
 
 window.onload = () => {
 	getCreateBtn().onclick = () => {
